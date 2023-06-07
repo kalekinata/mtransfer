@@ -6,8 +6,6 @@ create table roles(
       name varchar(150)
 );
 
-select * from users;
-
 set @adm_role := uuid();
 
 insert into roles
